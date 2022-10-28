@@ -25,3 +25,6 @@ func _ready():
 		var Instructions = get_node_or_null("/root/Game/UI/Instructions")
 		if Instructions != null:
 			Instructions.set_instructions(level["name"],level["instructions"])
+
+func _physics_process(_delta):
+	pass
