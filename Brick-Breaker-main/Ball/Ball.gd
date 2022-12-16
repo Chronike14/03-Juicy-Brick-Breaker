@@ -68,11 +68,7 @@ func _integrate_forces(state):
 	if state.linear_velocity.length() > max_speed * speed_multiplier:
 		state.linear_velocity = state.linear_velocity.normalized() * max_speed * speed_multiplier
 	
-	var Comet_Container = get_node_or_null("/root/Game/Comet_Container")
-	if Comet_Container != null:
-		var c = $ColorRect.duplicate()
-		c.rect_position = global_position
-		Comet_Container.add_child(c)
+	
 
 func wobble():
 	wobble_period += 1

@@ -26,7 +26,7 @@ position = Vector2( 50, 10 )
 rotation = 1.5708
 shape = SubResource( 4 )
 
-[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+[node name="Confetti" type="CPUParticles2D" parent="."]
 position = Vector2( 50, -10 )
 emitting = false
 lifetime = 0.5

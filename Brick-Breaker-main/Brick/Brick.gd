@@ -53,7 +53,7 @@ func _physics_process(_delta):
 	if dying and not $Confetti.emitting and not $Tween.is_active():
 		queue_free()
 	elif not $Tween.is_active() and not get_tree().paused:
-		color_distance = Global.color_position.distance_to(global_position)  / 100
+		color_distance = Global.color_position.distance_to(global_position) / 100
 		if Global.color_rotate >= 0:
 			$ColorRect.color = colors[(int(floor(color_distance + Global.color_rotate))) % len(colors)]
 			color_completed = false
