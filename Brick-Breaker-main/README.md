@@ -1,20 +1,21 @@
-# Brick-Breaker
-
-A starting place for Project 03
-
-
 ```
 # Project Name
-Context and date
+Music Breaker!
 
 Description
+A spin on the normal brick breaker genre.
 
 ## Implementation
-Which features you included
+Shaders!
+Personal Hand made music!
 
 ## References
 
+
 ## Future Development
+A line based system that detects when a brick is gone and adds more musical elements into the song as bricks break.
 
 ## Created by
+Donovan Eidenback
+
 ```
